@@ -1,0 +1,217 @@
+user_id,name,rule,severity,points,evidence,recommendation
+U0001,Alex Stone 1,TERMINATED_ACTIVE,Critical,45,Terminated identity remains enabled,Verify termination and promptly disable the identity after owner approval.
+U0001,Alex Stone 1,PRIVILEGED_NO_MFA,High,30,Privileged role assigned without MFA,Enforce an approved phishing-resistant MFA method for privileged access.
+U0001,Alex Stone 1,SOD_CONFLICT,High,35,Create and approve payments: ROLE_FIN_CREATE + ROLE_FIN_APPROVE,Review incompatible role assignments with the business owner.
+U0001,Alex Stone 1,SOD_CONFLICT,High,35,Provision identities and audit changes: ROLE_IAM_PROVISION + ROLE_IAM_AUDIT,Review incompatible role assignments with the business owner.
+U0001,Alex Stone 1,DORMANT_ACCOUNT,Medium,15,Last login 123 days ago,Confirm ownership; disable unused access through approved workflow.
+U0001,Alex Stone 1,LOGIN_FAILURE_SPIKE,Medium,15,7 failed events in latest 30 days,Investigate sign-in events and verify legitimate user activity.
+U0001,Alex Stone 1,FOREIGN_LOGIN,Low,10,1 sign-ins outside expected DE country,Verify sign-in geography and account activity; travel/VPN may explain it.
+U0002,Sam Stone 2,PRIVILEGED_NO_MFA,High,30,Privileged role assigned without MFA,Enforce an approved phishing-resistant MFA method for privileged access.
+U0004,Taylor Stone 4,STALE_ACCOUNT,Medium,20,Last login 73 days ago,Confirm the account is needed and schedule an access review.
+U0008,Jamie Stone 8,STALE_ACCOUNT,Medium,20,Last login 68 days ago,Confirm the account is needed and schedule an access review.
+U0009,Robin Stone 9,STALE_ACCOUNT,Medium,20,Last login 62 days ago,Confirm the account is needed and schedule an access review.
+U0010,Riley Stone 10,STALE_ACCOUNT,Medium,20,Last login 72 days ago,Confirm the account is needed and schedule an access review.
+U0011,Alex Patel 11,STALE_ACCOUNT,Medium,20,Last login 60 days ago,Confirm the account is needed and schedule an access review.
+U0012,Sam Patel 12,DORMANT_ACCOUNT,Medium,15,Last login 227 days ago,Confirm ownership; disable unused access through approved workflow.
+U0014,Taylor Patel 14,PRIVILEGED_NO_MFA,High,30,Privileged role assigned without MFA,Enforce an approved phishing-resistant MFA method for privileged access.
+U0016,Morgan Patel 16,STALE_ACCOUNT,Medium,20,Last login 70 days ago,Confirm the account is needed and schedule an access review.
+U0018,Jamie Patel 18,SOD_CONFLICT,High,35,Create and approve payments: ROLE_FIN_CREATE + ROLE_FIN_APPROVE,Review incompatible role assignments with the business owner.
+U0019,Robin Patel 19,PRIVILEGED_NO_MFA,High,30,Privileged role assigned without MFA,Enforce an approved phishing-resistant MFA method for privileged access.
+U0020,Riley Patel 20,STALE_ACCOUNT,Medium,20,Last login 50 days ago,Confirm the account is needed and schedule an access review.
+U0020,Riley Patel 20,LOGIN_FAILURE_SPIKE,Medium,15,7 failed events in latest 30 days,Investigate sign-in events and verify legitimate user activity.
+U0022,Sam Kim 22,STALE_ACCOUNT,Medium,20,Last login 67 days ago,Confirm the account is needed and schedule an access review.
+U0023,Jordan Kim 23,DORMANT_ACCOUNT,Medium,15,Last login 108 days ago,Confirm ownership; disable unused access through approved workflow.
+U0024,Taylor Kim 24,SOD_CONFLICT,High,35,Provision identities and audit changes: ROLE_IAM_PROVISION + ROLE_IAM_AUDIT,Review incompatible role assignments with the business owner.
+U0025,Casey Kim 25,STALE_ACCOUNT,Medium,20,Last login 71 days ago,Confirm the account is needed and schedule an access review.
+U0027,Avery Kim 27,PRIVILEGED_NO_MFA,High,30,Privileged role assigned without MFA,Enforce an approved phishing-resistant MFA method for privileged access.
+U0031,Alex Meyer 31,PRIVILEGED_NO_MFA,High,30,Privileged role assigned without MFA,Enforce an approved phishing-resistant MFA method for privileged access.
+U0031,Alex Meyer 31,STALE_ACCOUNT,Medium,20,Last login 60 days ago,Confirm the account is needed and schedule an access review.
+U0032,Sam Meyer 32,STALE_ACCOUNT,Medium,20,Last login 66 days ago,Confirm the account is needed and schedule an access review.
+U0032,Sam Meyer 32,FOREIGN_LOGIN,Low,10,1 sign-ins outside expected DE country,Verify sign-in geography and account activity; travel/VPN may explain it.
+U0033,Jordan Meyer 33,STALE_ACCOUNT,Medium,20,Last login 67 days ago,Confirm the account is needed and schedule an access review.
+U0034,Taylor Meyer 34,DORMANT_ACCOUNT,Medium,15,Last login 155 days ago,Confirm ownership; disable unused access through approved workflow.
+U0035,Casey Meyer 35,SOD_CONFLICT,High,35,Create and approve payments: ROLE_FIN_CREATE + ROLE_FIN_APPROVE,Review incompatible role assignments with the business owner.
+U0036,Morgan Meyer 36,STALE_ACCOUNT,Medium,20,Last login 51 days ago,Confirm the account is needed and schedule an access review.
+U0037,Avery Meyer 37,STALE_ACCOUNT,Medium,20,Last login 53 days ago,Confirm the account is needed and schedule an access review.
+U0038,Jamie Meyer 38,STALE_ACCOUNT,Medium,20,Last login 47 days ago,Confirm the account is needed and schedule an access review.
+U0039,Robin Meyer 39,LOGIN_FAILURE_SPIKE,Medium,15,7 failed events in latest 30 days,Investigate sign-in events and verify legitimate user activity.
+U0040,Riley Meyer 40,STALE_ACCOUNT,Medium,20,Last login 47 days ago,Confirm the account is needed and schedule an access review.
+U0041,Alex Smith 41,STALE_ACCOUNT,Medium,20,Last login 61 days ago,Confirm the account is needed and schedule an access review.
+U0043,Jordan Smith 43,STALE_ACCOUNT,Medium,20,Last login 60 days ago,Confirm the account is needed and schedule an access review.
+U0044,Taylor Smith 44,STALE_ACCOUNT,Medium,20,Last login 58 days ago,Confirm the account is needed and schedule an access review.
+U0045,Casey Smith 45,DORMANT_ACCOUNT,Medium,15,Last login 229 days ago,Confirm ownership; disable unused access through approved workflow.
+U0047,Avery Smith 47,SOD_CONFLICT,High,35,Provision identities and audit changes: ROLE_IAM_PROVISION + ROLE_IAM_AUDIT,Review incompatible role assignments with the business owner.
+U0048,Jamie Smith 48,STALE_ACCOUNT,Medium,20,Last login 72 days ago,Confirm the account is needed and schedule an access review.
+U0049,Robin Smith 49,STALE_ACCOUNT,Medium,20,Last login 66 days ago,Confirm the account is needed and schedule an access review.
+U0052,Sam Roy 52,SOD_CONFLICT,High,35,Create and approve payments: ROLE_FIN_CREATE + ROLE_FIN_APPROVE,Review incompatible role assignments with the business owner.
+U0054,Taylor Roy 54,STALE_ACCOUNT,Medium,20,Last login 51 days ago,Confirm the account is needed and schedule an access review.
+U0056,Morgan Roy 56,DORMANT_ACCOUNT,Medium,15,Last login 197 days ago,Confirm ownership; disable unused access through approved workflow.
+U0057,Avery Roy 57,STALE_ACCOUNT,Medium,20,Last login 56 days ago,Confirm the account is needed and schedule an access review.
+U0059,Robin Roy 59,TERMINATED_ACTIVE,Critical,45,Terminated identity remains enabled,Verify termination and promptly disable the identity after owner approval.
+U0063,Jordan Wong 63,STALE_ACCOUNT,Medium,20,Last login 67 days ago,Confirm the account is needed and schedule an access review.
+U0063,Jordan Wong 63,FOREIGN_LOGIN,Low,10,1 sign-ins outside expected DE country,Verify sign-in geography and account activity; travel/VPN may explain it.
+U0067,Avery Wong 67,DORMANT_ACCOUNT,Medium,15,Last login 160 days ago,Confirm ownership; disable unused access through approved workflow.
+U0069,Robin Wong 69,SOD_CONFLICT,High,35,Create and approve payments: ROLE_FIN_CREATE + ROLE_FIN_APPROVE,Review incompatible role assignments with the business owner.
+U0070,Riley Wong 70,SOD_CONFLICT,High,35,Provision identities and audit changes: ROLE_IAM_PROVISION + ROLE_IAM_AUDIT,Review incompatible role assignments with the business owner.
+U0071,Alex Bauer 71,STALE_ACCOUNT,Medium,20,Last login 61 days ago,Confirm the account is needed and schedule an access review.
+U0072,Sam Bauer 72,STALE_ACCOUNT,Medium,20,Last login 47 days ago,Confirm the account is needed and schedule an access review.
+U0073,Jordan Bauer 73,STALE_ACCOUNT,Medium,20,Last login 68 days ago,Confirm the account is needed and schedule an access review.
+U0077,Avery Bauer 77,STALE_ACCOUNT,Medium,20,Last login 64 days ago,Confirm the account is needed and schedule an access review.
+U0077,Avery Bauer 77,LOGIN_FAILURE_SPIKE,Medium,15,6 failed events in latest 30 days,Investigate sign-in events and verify legitimate user activity.
+U0078,Jamie Bauer 78,DORMANT_ACCOUNT,Medium,15,Last login 122 days ago,Confirm ownership; disable unused access through approved workflow.
+U0079,Robin Bauer 79,PRIVILEGED_NO_MFA,High,30,Privileged role assigned without MFA,Enforce an approved phishing-resistant MFA method for privileged access.
+U0080,Riley Bauer 80,PRIVILEGED_NO_MFA,High,30,Privileged role assigned without MFA,Enforce an approved phishing-resistant MFA method for privileged access.
+U0082,Sam Diaz 82,STALE_ACCOUNT,Medium,20,Last login 71 days ago,Confirm the account is needed and schedule an access review.
+U0084,Taylor Diaz 84,STALE_ACCOUNT,Medium,20,Last login 56 days ago,Confirm the account is needed and schedule an access review.
+U0086,Morgan Diaz 86,SOD_CONFLICT,High,35,Create and approve payments: ROLE_FIN_CREATE + ROLE_FIN_APPROVE,Review incompatible role assignments with the business owner.
+U0087,Avery Diaz 87,STALE_ACCOUNT,Medium,20,Last login 53 days ago,Confirm the account is needed and schedule an access review.
+U0089,Robin Diaz 89,DORMANT_ACCOUNT,Medium,15,Last login 144 days ago,Confirm ownership; disable unused access through approved workflow.
+U0090,Riley Diaz 90,STALE_ACCOUNT,Medium,20,Last login 63 days ago,Confirm the account is needed and schedule an access review.
+U0092,Sam Khan 92,PRIVILEGED_NO_MFA,High,30,Privileged role assigned without MFA,Enforce an approved phishing-resistant MFA method for privileged access.
+U0093,Jordan Khan 93,SOD_CONFLICT,High,35,Provision identities and audit changes: ROLE_IAM_PROVISION + ROLE_IAM_AUDIT,Review incompatible role assignments with the business owner.
+U0093,Jordan Khan 93,STALE_ACCOUNT,Medium,20,Last login 47 days ago,Confirm the account is needed and schedule an access review.
+U0094,Taylor Khan 94,FOREIGN_LOGIN,Low,10,1 sign-ins outside expected DE country,Verify sign-in geography and account activity; travel/VPN may explain it.
+U0095,Casey Khan 95,STALE_ACCOUNT,Medium,20,Last login 50 days ago,Confirm the account is needed and schedule an access review.
+U0097,Avery Khan 97,PRIVILEGED_NO_MFA,High,30,Privileged role assigned without MFA,Enforce an approved phishing-resistant MFA method for privileged access.
+U0100,Riley Khan 100,DORMANT_ACCOUNT,Medium,15,Last login 101 days ago,Confirm ownership; disable unused access through approved workflow.
+U0103,Jordan Stone 103,SOD_CONFLICT,High,35,Create and approve payments: ROLE_FIN_CREATE + ROLE_FIN_APPROVE,Review incompatible role assignments with the business owner.
+U0105,Casey Stone 105,PRIVILEGED_NO_MFA,High,30,Privileged role assigned without MFA,Enforce an approved phishing-resistant MFA method for privileged access.
+U0105,Casey Stone 105,STALE_ACCOUNT,Medium,20,Last login 59 days ago,Confirm the account is needed and schedule an access review.
+U0107,Avery Stone 107,STALE_ACCOUNT,Medium,20,Last login 66 days ago,Confirm the account is needed and schedule an access review.
+U0109,Robin Stone 109,STALE_ACCOUNT,Medium,20,Last login 47 days ago,Confirm the account is needed and schedule an access review.
+U0111,Alex Patel 111,PRIVILEGED_NO_MFA,High,30,Privileged role assigned without MFA,Enforce an approved phishing-resistant MFA method for privileged access.
+U0111,Alex Patel 111,DORMANT_ACCOUNT,Medium,15,Last login 233 days ago,Confirm ownership; disable unused access through approved workflow.
+U0112,Sam Patel 112,STALE_ACCOUNT,Medium,20,Last login 63 days ago,Confirm the account is needed and schedule an access review.
+U0113,Jordan Patel 113,STALE_ACCOUNT,Medium,20,Last login 52 days ago,Confirm the account is needed and schedule an access review.
+U0115,Casey Patel 115,LOGIN_FAILURE_SPIKE,Medium,15,6 failed events in latest 30 days,Investigate sign-in events and verify legitimate user activity.
+U0116,Morgan Patel 116,SOD_CONFLICT,High,35,Provision identities and audit changes: ROLE_IAM_PROVISION + ROLE_IAM_AUDIT,Review incompatible role assignments with the business owner.
+U0117,Avery Patel 117,TERMINATED_ACTIVE,Critical,45,Terminated identity remains enabled,Verify termination and promptly disable the identity after owner approval.
+U0117,Avery Patel 117,STALE_ACCOUNT,Medium,20,Last login 53 days ago,Confirm the account is needed and schedule an access review.
+U0118,Jamie Patel 118,PRIVILEGED_NO_MFA,High,30,Privileged role assigned without MFA,Enforce an approved phishing-resistant MFA method for privileged access.
+U0120,Riley Patel 120,SOD_CONFLICT,High,35,Create and approve payments: ROLE_FIN_CREATE + ROLE_FIN_APPROVE,Review incompatible role assignments with the business owner.
+U0122,Sam Kim 122,DORMANT_ACCOUNT,Medium,15,Last login 223 days ago,Confirm ownership; disable unused access through approved workflow.
+U0123,Jordan Kim 123,STALE_ACCOUNT,Medium,20,Last login 65 days ago,Confirm the account is needed and schedule an access review.
+U0125,Casey Kim 125,STALE_ACCOUNT,Medium,20,Last login 48 days ago,Confirm the account is needed and schedule an access review.
+U0125,Casey Kim 125,FOREIGN_LOGIN,Low,10,1 sign-ins outside expected DE country,Verify sign-in geography and account activity; travel/VPN may explain it.
+U0126,Morgan Kim 126,STALE_ACCOUNT,Medium,20,Last login 48 days ago,Confirm the account is needed and schedule an access review.
+U0127,Avery Kim 127,STALE_ACCOUNT,Medium,20,Last login 61 days ago,Confirm the account is needed and schedule an access review.
+U0128,Jamie Kim 128,STALE_ACCOUNT,Medium,20,Last login 71 days ago,Confirm the account is needed and schedule an access review.
+U0132,Sam Meyer 132,STALE_ACCOUNT,Medium,20,Last login 72 days ago,Confirm the account is needed and schedule an access review.
+U0133,Jordan Meyer 133,DORMANT_ACCOUNT,Medium,15,Last login 160 days ago,Confirm ownership; disable unused access through approved workflow.
+U0134,Taylor Meyer 134,STALE_ACCOUNT,Medium,20,Last login 51 days ago,Confirm the account is needed and schedule an access review.
+U0134,Taylor Meyer 134,LOGIN_FAILURE_SPIKE,Medium,15,6 failed events in latest 30 days,Investigate sign-in events and verify legitimate user activity.
+U0135,Casey Meyer 135,STALE_ACCOUNT,Medium,20,Last login 57 days ago,Confirm the account is needed and schedule an access review.
+U0136,Morgan Meyer 136,STALE_ACCOUNT,Medium,20,Last login 64 days ago,Confirm the account is needed and schedule an access review.
+U0137,Avery Meyer 137,SOD_CONFLICT,High,35,Create and approve payments: ROLE_FIN_CREATE + ROLE_FIN_APPROVE,Review incompatible role assignments with the business owner.
+U0138,Jamie Meyer 138,STALE_ACCOUNT,Medium,20,Last login 65 days ago,Confirm the account is needed and schedule an access review.
+U0139,Robin Meyer 139,SOD_CONFLICT,High,35,Provision identities and audit changes: ROLE_IAM_PROVISION + ROLE_IAM_AUDIT,Review incompatible role assignments with the business owner.
+U0140,Riley Meyer 140,STALE_ACCOUNT,Medium,20,Last login 48 days ago,Confirm the account is needed and schedule an access review.
+U0141,Alex Smith 141,STALE_ACCOUNT,Medium,20,Last login 68 days ago,Confirm the account is needed and schedule an access review.
+U0144,Taylor Smith 144,DORMANT_ACCOUNT,Medium,15,Last login 221 days ago,Confirm ownership; disable unused access through approved workflow.
+U0148,Jamie Smith 148,STALE_ACCOUNT,Medium,20,Last login 74 days ago,Confirm the account is needed and schedule an access review.
+U0149,Robin Smith 149,STALE_ACCOUNT,Medium,20,Last login 62 days ago,Confirm the account is needed and schedule an access review.
+U0150,Riley Smith 150,STALE_ACCOUNT,Medium,20,Last login 67 days ago,Confirm the account is needed and schedule an access review.
+U0151,Alex Roy 151,STALE_ACCOUNT,Medium,20,Last login 52 days ago,Confirm the account is needed and schedule an access review.
+U0152,Sam Roy 152,STALE_ACCOUNT,Medium,20,Last login 55 days ago,Confirm the account is needed and schedule an access review.
+U0153,Jordan Roy 153,LOGIN_FAILURE_SPIKE,Medium,15,8 failed events in latest 30 days,Investigate sign-in events and verify legitimate user activity.
+U0154,Taylor Roy 154,SOD_CONFLICT,High,35,Create and approve payments: ROLE_FIN_CREATE + ROLE_FIN_APPROVE,Review incompatible role assignments with the business owner.
+U0154,Taylor Roy 154,STALE_ACCOUNT,Medium,20,Last login 48 days ago,Confirm the account is needed and schedule an access review.
+U0155,Casey Roy 155,DORMANT_ACCOUNT,Medium,15,Last login 240 days ago,Confirm ownership; disable unused access through approved workflow.
+U0156,Morgan Roy 156,STALE_ACCOUNT,Medium,20,Last login 50 days ago,Confirm the account is needed and schedule an access review.
+U0156,Morgan Roy 156,FOREIGN_LOGIN,Low,10,1 sign-ins outside expected DE country,Verify sign-in geography and account activity; travel/VPN may explain it.
+U0157,Avery Roy 157,PRIVILEGED_NO_MFA,High,30,Privileged role assigned without MFA,Enforce an approved phishing-resistant MFA method for privileged access.
+U0158,Jamie Roy 158,STALE_ACCOUNT,Medium,20,Last login 50 days ago,Confirm the account is needed and schedule an access review.
+U0159,Robin Roy 159,STALE_ACCOUNT,Medium,20,Last login 48 days ago,Confirm the account is needed and schedule an access review.
+U0160,Riley Roy 160,STALE_ACCOUNT,Medium,20,Last login 48 days ago,Confirm the account is needed and schedule an access review.
+U0162,Sam Wong 162,SOD_CONFLICT,High,35,Provision identities and audit changes: ROLE_IAM_PROVISION + ROLE_IAM_AUDIT,Review incompatible role assignments with the business owner.
+U0164,Taylor Wong 164,STALE_ACCOUNT,Medium,20,Last login 50 days ago,Confirm the account is needed and schedule an access review.
+U0166,Morgan Wong 166,DORMANT_ACCOUNT,Medium,15,Last login 202 days ago,Confirm ownership; disable unused access through approved workflow.
+U0167,Avery Wong 167,STALE_ACCOUNT,Medium,20,Last login 65 days ago,Confirm the account is needed and schedule an access review.
+U0169,Robin Wong 169,PRIVILEGED_NO_MFA,High,30,Privileged role assigned without MFA,Enforce an approved phishing-resistant MFA method for privileged access.
+U0170,Riley Wong 170,PRIVILEGED_NO_MFA,High,30,Privileged role assigned without MFA,Enforce an approved phishing-resistant MFA method for privileged access.
+U0171,Alex Bauer 171,SOD_CONFLICT,High,35,Create and approve payments: ROLE_FIN_CREATE + ROLE_FIN_APPROVE,Review incompatible role assignments with the business owner.
+U0172,Sam Bauer 172,LOGIN_FAILURE_SPIKE,Medium,15,5 failed events in latest 30 days,Investigate sign-in events and verify legitimate user activity.
+U0174,Taylor Bauer 174,STALE_ACCOUNT,Medium,20,Last login 62 days ago,Confirm the account is needed and schedule an access review.
+U0175,Casey Bauer 175,TERMINATED_ACTIVE,Critical,45,Terminated identity remains enabled,Verify termination and promptly disable the identity after owner approval.
+U0175,Casey Bauer 175,STALE_ACCOUNT,Medium,20,Last login 46 days ago,Confirm the account is needed and schedule an access review.
+U0177,Avery Bauer 177,DORMANT_ACCOUNT,Medium,15,Last login 158 days ago,Confirm ownership; disable unused access through approved workflow.
+U0178,Jamie Bauer 178,STALE_ACCOUNT,Medium,20,Last login 74 days ago,Confirm the account is needed and schedule an access review.
+U0184,Taylor Diaz 184,STALE_ACCOUNT,Medium,20,Last login 72 days ago,Confirm the account is needed and schedule an access review.
+U0185,Casey Diaz 185,SOD_CONFLICT,High,35,Provision identities and audit changes: ROLE_IAM_PROVISION + ROLE_IAM_AUDIT,Review incompatible role assignments with the business owner.
+U0187,Avery Diaz 187,FOREIGN_LOGIN,Low,10,1 sign-ins outside expected DE country,Verify sign-in geography and account activity; travel/VPN may explain it.
+U0188,Jamie Diaz 188,SOD_CONFLICT,High,35,Create and approve payments: ROLE_FIN_CREATE + ROLE_FIN_APPROVE,Review incompatible role assignments with the business owner.
+U0188,Jamie Diaz 188,DORMANT_ACCOUNT,Medium,15,Last login 229 days ago,Confirm ownership; disable unused access through approved workflow.
+U0189,Robin Diaz 189,STALE_ACCOUNT,Medium,20,Last login 73 days ago,Confirm the account is needed and schedule an access review.
+U0196,Morgan Khan 196,STALE_ACCOUNT,Medium,20,Last login 64 days ago,Confirm the account is needed and schedule an access review.
+U0197,Avery Khan 197,STALE_ACCOUNT,Medium,20,Last login 74 days ago,Confirm the account is needed and schedule an access review.
+U0199,Robin Khan 199,DORMANT_ACCOUNT,Medium,15,Last login 186 days ago,Confirm ownership; disable unused access through approved workflow.
+U0200,Riley Khan 200,STALE_ACCOUNT,Medium,20,Last login 47 days ago,Confirm the account is needed and schedule an access review.
+U0201,Alex Stone 201,STALE_ACCOUNT,Medium,20,Last login 50 days ago,Confirm the account is needed and schedule an access review.
+U0202,Sam Stone 202,STALE_ACCOUNT,Medium,20,Last login 57 days ago,Confirm the account is needed and schedule an access review.
+U0203,Jordan Stone 203,STALE_ACCOUNT,Medium,20,Last login 61 days ago,Confirm the account is needed and schedule an access review.
+U0205,Casey Stone 205,SOD_CONFLICT,High,35,Create and approve payments: ROLE_FIN_CREATE + ROLE_FIN_APPROVE,Review incompatible role assignments with the business owner.
+U0208,Jamie Stone 208,SOD_CONFLICT,High,35,Provision identities and audit changes: ROLE_IAM_PROVISION + ROLE_IAM_AUDIT,Review incompatible role assignments with the business owner.
+U0208,Jamie Stone 208,STALE_ACCOUNT,Medium,20,Last login 46 days ago,Confirm the account is needed and schedule an access review.
+U0210,Riley Stone 210,DORMANT_ACCOUNT,Medium,15,Last login 151 days ago,Confirm ownership; disable unused access through approved workflow.
+U0210,Riley Stone 210,LOGIN_FAILURE_SPIKE,Medium,15,5 failed events in latest 30 days,Investigate sign-in events and verify legitimate user activity.
+U0213,Jordan Patel 213,STALE_ACCOUNT,Medium,20,Last login 57 days ago,Confirm the account is needed and schedule an access review.
+U0215,Casey Patel 215,STALE_ACCOUNT,Medium,20,Last login 54 days ago,Confirm the account is needed and schedule an access review.
+U0216,Morgan Patel 216,STALE_ACCOUNT,Medium,20,Last login 50 days ago,Confirm the account is needed and schedule an access review.
+U0218,Jamie Patel 218,STALE_ACCOUNT,Medium,20,Last login 66 days ago,Confirm the account is needed and schedule an access review.
+U0218,Jamie Patel 218,FOREIGN_LOGIN,Low,10,1 sign-ins outside expected DE country,Verify sign-in geography and account activity; travel/VPN may explain it.
+U0219,Robin Patel 219,STALE_ACCOUNT,Medium,20,Last login 54 days ago,Confirm the account is needed and schedule an access review.
+U0220,Riley Patel 220,STALE_ACCOUNT,Medium,20,Last login 66 days ago,Confirm the account is needed and schedule an access review.
+U0221,Alex Kim 221,DORMANT_ACCOUNT,Medium,15,Last login 122 days ago,Confirm ownership; disable unused access through approved workflow.
+U0222,Sam Kim 222,PRIVILEGED_NO_MFA,High,30,Privileged role assigned without MFA,Enforce an approved phishing-resistant MFA method for privileged access.
+U0222,Sam Kim 222,SOD_CONFLICT,High,35,Create and approve payments: ROLE_FIN_CREATE + ROLE_FIN_APPROVE,Review incompatible role assignments with the business owner.
+U0224,Taylor Kim 224,STALE_ACCOUNT,Medium,20,Last login 62 days ago,Confirm the account is needed and schedule an access review.
+U0229,Robin Kim 229,LOGIN_FAILURE_SPIKE,Medium,15,7 failed events in latest 30 days,Investigate sign-in events and verify legitimate user activity.
+U0231,Alex Meyer 231,SOD_CONFLICT,High,35,Provision identities and audit changes: ROLE_IAM_PROVISION + ROLE_IAM_AUDIT,Review incompatible role assignments with the business owner.
+U0231,Alex Meyer 231,STALE_ACCOUNT,Medium,20,Last login 60 days ago,Confirm the account is needed and schedule an access review.
+U0232,Sam Meyer 232,DORMANT_ACCOUNT,Medium,15,Last login 152 days ago,Confirm ownership; disable unused access through approved workflow.
+U0233,Jordan Meyer 233,TERMINATED_ACTIVE,Critical,45,Terminated identity remains enabled,Verify termination and promptly disable the identity after owner approval.
+U0235,Casey Meyer 235,PRIVILEGED_NO_MFA,High,30,Privileged role assigned without MFA,Enforce an approved phishing-resistant MFA method for privileged access.
+U0237,Avery Meyer 237,STALE_ACCOUNT,Medium,20,Last login 62 days ago,Confirm the account is needed and schedule an access review.
+U0239,Robin Meyer 239,SOD_CONFLICT,High,35,Create and approve payments: ROLE_FIN_CREATE + ROLE_FIN_APPROVE,Review incompatible role assignments with the business owner.
+U0243,Jordan Smith 243,DORMANT_ACCOUNT,Medium,15,Last login 204 days ago,Confirm ownership; disable unused access through approved workflow.
+U0244,Taylor Smith 244,STALE_ACCOUNT,Medium,20,Last login 56 days ago,Confirm the account is needed and schedule an access review.
+U0245,Casey Smith 245,STALE_ACCOUNT,Medium,20,Last login 61 days ago,Confirm the account is needed and schedule an access review.
+U0246,Morgan Smith 246,STALE_ACCOUNT,Medium,20,Last login 62 days ago,Confirm the account is needed and schedule an access review.
+U0248,Jamie Smith 248,PRIVILEGED_NO_MFA,High,30,Privileged role assigned without MFA,Enforce an approved phishing-resistant MFA method for privileged access.
+U0249,Robin Smith 249,FOREIGN_LOGIN,Low,10,1 sign-ins outside expected DE country,Verify sign-in geography and account activity; travel/VPN may explain it.
+U0252,Sam Roy 252,STALE_ACCOUNT,Medium,20,Last login 75 days ago,Confirm the account is needed and schedule an access review.
+U0254,Taylor Roy 254,SOD_CONFLICT,High,35,Provision identities and audit changes: ROLE_IAM_PROVISION + ROLE_IAM_AUDIT,Review incompatible role assignments with the business owner.
+U0254,Taylor Roy 254,DORMANT_ACCOUNT,Medium,15,Last login 235 days ago,Confirm ownership; disable unused access through approved workflow.
+U0255,Casey Roy 255,STALE_ACCOUNT,Medium,20,Last login 53 days ago,Confirm the account is needed and schedule an access review.
+U0256,Morgan Roy 256,SOD_CONFLICT,High,35,Create and approve payments: ROLE_FIN_CREATE + ROLE_FIN_APPROVE,Review incompatible role assignments with the business owner.
+U0256,Morgan Roy 256,STALE_ACCOUNT,Medium,20,Last login 71 days ago,Confirm the account is needed and schedule an access review.
+U0257,Avery Roy 257,STALE_ACCOUNT,Medium,20,Last login 56 days ago,Confirm the account is needed and schedule an access review.
+U0260,Riley Roy 260,STALE_ACCOUNT,Medium,20,Last login 60 days ago,Confirm the account is needed and schedule an access review.
+U0265,Casey Wong 265,DORMANT_ACCOUNT,Medium,15,Last login 250 days ago,Confirm ownership; disable unused access through approved workflow.
+U0268,Jamie Wong 268,STALE_ACCOUNT,Medium,20,Last login 65 days ago,Confirm the account is needed and schedule an access review.
+U0269,Robin Wong 269,STALE_ACCOUNT,Medium,20,Last login 70 days ago,Confirm the account is needed and schedule an access review.
+U0272,Sam Bauer 272,STALE_ACCOUNT,Medium,20,Last login 75 days ago,Confirm the account is needed and schedule an access review.
+U0273,Jordan Bauer 273,SOD_CONFLICT,High,35,Create and approve payments: ROLE_FIN_CREATE + ROLE_FIN_APPROVE,Review incompatible role assignments with the business owner.
+U0273,Jordan Bauer 273,STALE_ACCOUNT,Medium,20,Last login 50 days ago,Confirm the account is needed and schedule an access review.
+U0276,Morgan Bauer 276,DORMANT_ACCOUNT,Medium,15,Last login 183 days ago,Confirm ownership; disable unused access through approved workflow.
+U0277,Avery Bauer 277,SOD_CONFLICT,High,35,Provision identities and audit changes: ROLE_IAM_PROVISION + ROLE_IAM_AUDIT,Review incompatible role assignments with the business owner.
+U0278,Jamie Bauer 278,STALE_ACCOUNT,Medium,20,Last login 73 days ago,Confirm the account is needed and schedule an access review.
+U0280,Riley Bauer 280,FOREIGN_LOGIN,Low,10,1 sign-ins outside expected DE country,Verify sign-in geography and account activity; travel/VPN may explain it.
+U0282,Sam Diaz 282,STALE_ACCOUNT,Medium,20,Last login 47 days ago,Confirm the account is needed and schedule an access review.
+U0284,Taylor Diaz 284,PRIVILEGED_NO_MFA,High,30,Privileged role assigned without MFA,Enforce an approved phishing-resistant MFA method for privileged access.
+U0285,Casey Diaz 285,STALE_ACCOUNT,Medium,20,Last login 71 days ago,Confirm the account is needed and schedule an access review.
+U0286,Morgan Diaz 286,LOGIN_FAILURE_SPIKE,Medium,15,5 failed events in latest 30 days,Investigate sign-in events and verify legitimate user activity.
+U0287,Avery Diaz 287,DORMANT_ACCOUNT,Medium,15,Last login 108 days ago,Confirm ownership; disable unused access through approved workflow.
+U0288,Jamie Diaz 288,STALE_ACCOUNT,Medium,20,Last login 51 days ago,Confirm the account is needed and schedule an access review.
+U0290,Riley Diaz 290,SOD_CONFLICT,High,35,Create and approve payments: ROLE_FIN_CREATE + ROLE_FIN_APPROVE,Review incompatible role assignments with the business owner.
+U0290,Riley Diaz 290,STALE_ACCOUNT,Medium,20,Last login 71 days ago,Confirm the account is needed and schedule an access review.
+U0291,Alex Khan 291,TERMINATED_ACTIVE,Critical,45,Terminated identity remains enabled,Verify termination and promptly disable the identity after owner approval.
+U0291,Alex Khan 291,PRIVILEGED_NO_MFA,High,30,Privileged role assigned without MFA,Enforce an approved phishing-resistant MFA method for privileged access.
+U0292,Sam Khan 292,STALE_ACCOUNT,Medium,20,Last login 56 days ago,Confirm the account is needed and schedule an access review.
+U0293,Jordan Khan 293,STALE_ACCOUNT,Medium,20,Last login 52 days ago,Confirm the account is needed and schedule an access review.
+U0295,Casey Khan 295,STALE_ACCOUNT,Medium,20,Last login 47 days ago,Confirm the account is needed and schedule an access review.
+U0296,Morgan Khan 296,STALE_ACCOUNT,Medium,20,Last login 64 days ago,Confirm the account is needed and schedule an access review.
+U0298,Jamie Khan 298,DORMANT_ACCOUNT,Medium,15,Last login 120 days ago,Confirm ownership; disable unused access through approved workflow.
+U0300,Riley Khan 300,PRIVILEGED_NO_MFA,High,30,Privileged role assigned without MFA,Enforce an approved phishing-resistant MFA method for privileged access.
+U0300,Riley Khan 300,SOD_CONFLICT,High,35,Provision identities and audit changes: ROLE_IAM_PROVISION + ROLE_IAM_AUDIT,Review incompatible role assignments with the business owner.
+U0300,Riley Khan 300,STALE_ACCOUNT,Medium,20,Last login 65 days ago,Confirm the account is needed and schedule an access review.

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "identityguard-iam-analytics"
+version = "1.0.0"
+description = "Synthetic IAM access governance, rule-based risk scoring and Streamlit analytics"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "IdentityGuard Portfolio Project"}]
+dependencies = ["pandas>=2.0,<3.0", "streamlit>=1.35,<2.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.6"]
+
+[project.scripts]
+identityguard = "identityguard.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100

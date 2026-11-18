@@ -1,0 +1,13 @@
+role_id,role_name,department,privileged
+ROLE_VIEW_REPORTS,Reports Viewer,Analytics,false
+ROLE_DATA_EXPORT,Data Export,Analytics,false
+ROLE_HR_READ,HR Reader,HR,false
+ROLE_HR_WRITE,HR Editor,HR,true
+ROLE_FIN_CREATE,Payment Creator,Finance,true
+ROLE_FIN_APPROVE,Payment Approver,Finance,true
+ROLE_IAM_PROVISION,Identity Provisioner,IT,true
+ROLE_IAM_AUDIT,Identity Auditor,IT,true
+ROLE_GLOBAL_ADMIN,Global Admin,IT,true
+ROLE_HELPDESK,Helpdesk,IT,false
+ROLE_SALES_CRM,CRM Editor,Sales,false
+ROLE_MARKETING,Campaign Manager,Marketing,false
