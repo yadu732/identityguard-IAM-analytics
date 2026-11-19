@@ -125,28 +125,6 @@ identityguard/
 
 This is a **portfolio demonstration**, not a production identity governance or compliance product. The dataset is fictional and generated from scripted patterns. Detection quality is not measured against real incident labels. Country is a coarse field and not a reliable threat signal. Role privilege and SoD conflicts are modeled simplistically. Scores are heuristic points, *not* calibrated incident probabilities. Never use these recommendations to disable real identities automatically. A production implementation would need authorization checks, robust audit logs, encrypted secret storage, time-aware entitlements, owner approvals, tenant-specific policy rules, privacy reviews, validation with security stakeholders, and integration testing against authorized APIs.
 
-## Publish to GitHub
-
-1. Create a new **public** repository named `identityguard-iam-analytics` in GitHub (leave README initialization unchecked).
-2. Replace `OWNER` in the CI badge at the top of this README with your username.
-3. From this project folder run:
-
-   ```bash
-   git init
-   git add .
-   git commit -m "Build IdentityGuard IAM analytics demo"
-   git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/identityguard-iam-analytics.git
-   git push -u origin main
-   ```
-
-   If authentication prompts fail, use GitHub CLI (`gh auth login`) or a supported credential manager. Password-based HTTPS Git authentication is not supported.
-4. Confirm the Actions tab shows successful automated checks and add dashboard screenshots to the README if desired.
-5. Optionally deploy with a Streamlit-compatible hosting service (review its free-tier limits and data-privacy settings). The Dockerfile allows hosting on your own Docker server.
-
-## Suggested CV summary (after verifying functionality)
-
-**IdentityGuard | Python, pandas, Streamlit, IAM/RBAC**: Developed an explainable access governance analytics platform that analyzes synthetic identity and sign-in records, flags excessive privilege/MFA gaps and SoD conflicts, and produces audit-ready reports with automated CI tests.
 
 ## License
 
